@@ -10,3 +10,5 @@ Main/key packages on this project:
 - NUnit
 - NSubstitute
 - Microsoft.NET.Test.Sdk
+
+I'm working on finishing this project asap
