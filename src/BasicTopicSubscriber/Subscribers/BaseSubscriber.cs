@@ -37,7 +37,7 @@ namespace BasicTopicSubscriber.Subscribers
         {
             if (_processor.IsClosed) return;
 
-            await _processor?.CloseAsync();
+            await _processor.CloseAsync();
             GC.SuppressFinalize(this);
         }
     }
